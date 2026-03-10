@@ -1,0 +1,59 @@
+/* MISSION */
+.mission {
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    var(--bg-off-white) 0%,
+    var(--bg-off-white) 20%,
+    var(--bg-light-yellow) 50%,
+    var(--bg-off-white) 80%,
+    var(--bg-off-white) 100%
+  );
+
+margin-top: 10vh;
+margin-bottom: 10vh;
+}
+
+
+.eyebrow {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-green-body);
+  margin-bottom: 1rem;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  max-width: 800px;   
+  width: 100%;
+}
+.card {
+  background: var(--cmpnt-green-bg);
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+} 
+
+h2{ 
+    color: var(--text-green-title); 
+    font-weight: 700;
+    font-size: xx-large;
+ }  
+h3{ 
+    color: var(--text-green-title);
+ } 
+
+p{ 
+    color: var(--text-green-body)
+}
+

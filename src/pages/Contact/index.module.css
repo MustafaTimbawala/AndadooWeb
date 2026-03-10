@@ -1,0 +1,189 @@
+.page {
+  background: var(--bg-off-white);
+  padding: 60px 16px;
+}
+
+.section {
+  max-width: 800px;
+  margin: 0 auto 80px auto;
+}
+
+.heroCard {
+  background: var(--bg-card-green);
+  padding: 40px 40px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.heroCard h1 {
+  margin-bottom: 16px;
+  font-size: 2rem;
+  color: var(--text-green-title);
+}
+
+.heroCard p {
+  color: var(--text-green-body);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* SPLIT SECTION */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.why h2 {
+  margin-bottom: 16px;
+}
+
+.why ul {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.why li {
+  margin-bottom: 10px;
+  color: var(--text-green-body);
+}
+
+/* FORM CARD */
+.formCard {
+  background: var(--bg-card-green);
+  padding: 30px;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--bg-card-green);
+  font-size: 14px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background-color: #1f3a2f;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #162b22;
+}
+
+.confirmation {
+  text-align: center;
+}
+
+/* GENERIC CARD */
+.card {
+  background: var(--bg-card-green); 
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+} 
+
+
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+.label{ 
+    color: var(--text-green-title);  
+    font-weight: bold;
+
+} 
+
+.subtext{ 
+    color: var(--text-green-body); 
+    font-weight: 500;
+    font-size:medium;
+}
+
+/* FAQ */
+.faqItem {
+  margin-top: 20px;
+}
+
+.faqItem h4 {
+  margin-bottom: 8px;
+  color: var(--text-green-title);
+}
+
+/* CTA */
+.cta {
+  background: var(--bg-card-green);
+  color: white;
+  padding: 20px 20px;
+  border-radius: 24px;
+  text-align: center;
+} 
+.cta_content{ 
+    display: flex; 
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    gap: 5px; 
+    padding: 20px 0px;
+} 
+.cta p{ 
+    margin:0;
+}
+.cta h4{ 
+    color: var(--text-green-title); 
+    font-size: x-large; 
+    margin: 0;
+}
+
+.cta button {
+  background: var(--bg-off-white);
+  color: var(--text-green-title);
+}
+
+.cta button:hover {
+  background: #e6e6e6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .split {
+    grid-template-columns: 1fr;
+  }
+
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroCard,
+  .card,
+  .cta,
+  .formCard {
+    padding: 40px 24px;
+  }
+}

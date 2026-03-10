@@ -1,0 +1,16 @@
+/* Donate button */
+.donate_btn {
+  background: #2e7d32;
+  color: white;
+  padding: 10px 26px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.donate_btn:hover {
+  background: #256628;
+  transform: translateY(-2px);
+}

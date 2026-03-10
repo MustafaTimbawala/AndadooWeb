@@ -1,0 +1,21 @@
+
+.btn {
+  background: #fdf0c8; 
+  margin: 10px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: none;
+} 
+.btn a {
+  color: var(--text-green-body); 
+  text-decoration: none; 
+  font-weight: 600;
+
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.18);
+  background: #f8e4a6;
+}
+

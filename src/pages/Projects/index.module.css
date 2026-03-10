@@ -1,0 +1,142 @@
+/* ROOT PAGE */
+.projects_page {
+  padding: 4rem 6rem;
+  color: #1f3a2f;
+}
+
+/* SECTION LABEL */
+.section_label {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-green-body);
+  margin-bottom: 1rem;
+}
+
+/* HERO */
+.projects_hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  margin-bottom: 10rem; 
+
+}
+
+.projects_hero h1 {
+
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.hero_description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 500px;
+}
+
+.projects_hero_image img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* PROJECT SECTION */
+.project_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.project_section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project_image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+.impact_list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+.impact_list li {
+  margin-bottom: 10px;
+  color: var(--text-green-body);
+}
+
+/* ACTION CARDS */
+.actions_section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-bottom: 10rem;
+}
+
+.action_card {
+  background-color: var(--bg-card-green);
+  padding: 2rem;
+  border-radius: 18px;
+  transition: transform 0.3s ease;
+}
+
+.action_card:hover {
+  transform: translateY(-3px);
+}
+
+.action_card h3 {
+  margin-bottom: 1rem;
+}
+
+/* DONATION SECTION */
+
+
+.donation_content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.donation_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.donation_card {
+  background-color: var(--cmpnt-yellow-bg);
+  padding: 2rem;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.donation_card span {
+  font-size: 2rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .projects_hero,
+  .project_section {
+    grid-template-columns: 1fr;
+  }
+
+  .actions_section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .donation_grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,38 @@
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  background: var(--bg-off-white);
+  position: sticky;
+  top: 0;
+}
+
+.logo {   
+    display: flex;
+    flex-direction: row; 
+} 
+
+.logo h1{ 
+ color: var(--text-yellow-title); 
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+ 
+.links a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.2s ease;
+}
+.donate_btn {
+  background: #4c7a4c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+}

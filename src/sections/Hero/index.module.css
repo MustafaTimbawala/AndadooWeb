@@ -1,0 +1,97 @@
+.hero {
+  height: 80vh;
+  margin: 2rem 6rem;
+  border-radius: 12px;
+  overflow: hidden;
+
+  background-image: url("/images/header_bg.jpg"); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+.content {
+  max-width: 850px;
+}
+
+.org_name{ 
+  color: var(--bg-off-white); 
+  font-family: "Fraunces", serif;
+  margin: 0;
+}
+
+.title {
+  font-family: "Fraunces", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0;  
+  margin-top: 1rem;
+  color: var(--text-yellow-title);
+}
+
+.subtitle{ 
+  font-size: "Inter", sans-serif; 
+  color: var(--bg-off-white);
+  font-weight: 500; 
+  font-size: x-large;
+  margin-top: 0;
+}
+
+.description {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  opacity: 0.95; 
+  color: var(--bg-off-white); 
+  font-weight:400 ;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryBtn {
+  background-color: var(--bg-off-white);
+  font-family: "Inter", serif;
+  color: var(--text-green-body);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primaryBtn:hover {
+  background-color: #f2f2f2;
+}
+
+.secondaryBtn {
+  background: transparent var(--bg-off-white); 
+  font-family: "Inter", serif;
+  color: var(--bg-off-white);
+  border: 1px solid ;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+} 
+
+.secondaryBtn:hover{ 
+
+  background: transparent;
+}
+
